@@ -1,0 +1,8 @@
+includes:
+  - 'layer:basic'
+  - 'layer:apt'
+  - 'layer:elastic-base'
+  - 'interface:elasticsearch'
+options:
+  elastic-base:
+    elastic-pkgs: ["journalbeat"]
